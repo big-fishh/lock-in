@@ -1,0 +1,9 @@
+.page-wrapper {
+  margin-left: 70px;
+}
+
+.content {
+  padding-top: 60px;
+  min-height: 100vh;
+  background: transparent;
+}

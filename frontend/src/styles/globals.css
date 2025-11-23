@@ -1,0 +1,25 @@
+body {
+	min-height: 100vh;
+	background:
+		/* Orange glow (right) */
+		radial-gradient(
+		ellipse 50% 35% at 80% -10%,
+		rgba(213, 144, 88, 0.30) 0%,
+		rgba(107, 72, 44, 0.12) 40%,
+		transparent 90%
+		),
+
+		/* Pink glow (left) */
+		radial-gradient(
+		ellipse 90% 55% at 20% 3%,
+		rgba(213, 86, 114, 0.16) 0%,
+		rgba(107, 43, 57, 0.08) 40%,
+		transparent 90%
+		),
+
+		url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEklEQVR4nGP4z8DAwMiAAQYBABHtA/24AAAAAElFTkSuQmCC'), /* 1px noise */
+
+		/* Dark background */
+		#0f0f12;
+  	background-blend-mode: screen;
+}
