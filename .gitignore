@@ -10,7 +10,7 @@ lerna-debug.log*
 # Environement Files
 .env
 .env.*
-backend/src/.env
+backend/.env
 frontend/.env
 
 # Node Modules
@@ -45,6 +45,3 @@ Thumbs.db
 *.sw?
 
 *.tsbuildinfo
-
-# User Uploads
-backend/uploads
